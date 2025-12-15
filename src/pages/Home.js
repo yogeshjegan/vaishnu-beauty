@@ -4,6 +4,7 @@ import img1 from "../assets/Images/banner2.png";
 import img2 from "../assets/Images/banner3.png";
 import img3 from "../assets/Images/banner4.png";
 import { Helmet } from "react-helmet";
+import "../App.css";
 const Home = () => {
   return (
     <div>
@@ -14,8 +15,9 @@ const Home = () => {
       {/* Carousel */}
       <div
         id="mainCarousel"
-        className="carousel slide d-block d-md-2"
+        className="carousel slide"
         data-bs-ride="carousel"
+        data-bs-interval="3000"
       >
         {/* Indicators */}
         <div className="carousel-indicators">
@@ -23,7 +25,7 @@ const Home = () => {
             type="button"
             data-bs-target="#mainCarousel"
             data-bs-slide-to="0"
-            className="active d-none"
+            className="active"
           ></button>
           <button
             type="button"
@@ -39,16 +41,15 @@ const Home = () => {
 
         {/* Slides */}
         <div className="carousel-inner">
+          {/* Slide 1 */}
           <div className="carousel-item active">
             <a
-              onClick={() => {
+              onClick={() =>
                 window.open(
-                  `https://wa.me/917639384577?text=appointment`,
+                  "https://wa.me/917639384577?text=appointment",
                   "_blank"
-                );
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
+                )
+              }
             >
               <img
                 src={img1}
@@ -56,22 +57,17 @@ const Home = () => {
                 alt="Slide 1"
               />
             </a>
-
-            <div className="carousel-caption d-none">
-              <h3>Slide One</h3>
-              <p>This is the first slide</p>
-            </div>
           </div>
+
+          {/* Slide 2 */}
           <div className="carousel-item">
             <a
-              onClick={() => {
+              onClick={() =>
                 window.open(
-                  `https://wa.me/917639384577?text=appointment`,
+                  "https://wa.me/917639384577?text=appointment",
                   "_blank"
-                );
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
+                )
+              }
             >
               <img
                 src={img2}
@@ -79,21 +75,17 @@ const Home = () => {
                 alt="Slide 2"
               />
             </a>
-            <div className="carousel-caption d-none ">
-              <h3>Slide Two</h3>
-              <p>This is the second slide</p>
-            </div>
           </div>
+
+          {/* Slide 3 */}
           <div className="carousel-item">
             <a
-              onClick={() => {
+              onClick={() =>
                 window.open(
-                  `https://wa.me/917639384577?text=appointment`,
+                  "https://wa.me/917639384577?text=appointment",
                   "_blank"
-                );
-              }}
-              target="_blank"
-              rel="noopener noreferrer"
+                )
+              }
             >
               <img
                 src={img3}
@@ -101,22 +93,19 @@ const Home = () => {
                 alt="Slide 3"
               />
             </a>
-            <div className="carousel-caption d-none ">
-              <h3>Slide Three</h3>
-              <p>This is the third slide</p>
-            </div>
           </div>
         </div>
 
-        {/* Controls */}
+        {/* Controls — visible but disabled click */}
         <button
           className="carousel-control-prev"
           type="button"
           data-bs-target="#mainCarousel"
           data-bs-slide="prev"
         >
-          <span className="carousel-control-prev-icon"></span>
+          <span className="carousel-control-prev-icon "></span>
         </button>
+
         <button
           className="carousel-control-next"
           type="button"

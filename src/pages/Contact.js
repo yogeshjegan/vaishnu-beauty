@@ -10,7 +10,7 @@ const ContactUs = () => {
     message: "",
   });
 
-  const whatsappNumber = "7639384577"; // Replace with your WhatsApp number
+  const whatsappNumber = "9080675488"; // Replace with your WhatsApp number
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });

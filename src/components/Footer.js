@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import logo from "../assets/Images/logo.png";
+import { FaAddressCard, FaArrowAltCircleRight, FaArrowLeft, FaBuilding, FaDotCircle, FaInstagram, FaInstagramSquare, FaMailBulk, FaPhoneAlt, FaPhoneSquare, FaVoicemail } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="footer-section text-dark mt-5 ">
@@ -23,51 +24,42 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div className="col-6 col-md-4 mb-3 fade-in text-dark">
+          <div className="col-4 col-md-4 mb-3 fade-in text-dark">
             <h6 className="fw-bold">Quick Links</h6>
-            <ul className="list-unstyled small">
-              <li>
+            <ul className="list-unstyled small px-2 ">
+              <li className="py-1">
                 <a href="/" className="footer-link">
-                  Home
+                 <FaArrowAltCircleRight/> Home
                 </a>
               </li>
-              <li>
+              <li className="py-1">
                 <a href="/services" className="footer-link">
-                  Services
+                 <FaArrowAltCircleRight/> Services
                 </a>
               </li>
-              <li>
+              <li className="py-1">
                 <a href="/about" className="footer-link">
-                  About Us
+                 <FaArrowAltCircleRight/> About Us
                 </a>
               </li>
-              <li>
+              <li className="py-1">
                 <a href="/contact" className="footer-link">
-                  Contact
+                 <FaArrowAltCircleRight/> Contact
                 </a>
               </li>
             </ul>
           </div>
 
           {/* Contact Info */}
-          <div className="col-6 col-md-4 mb-3 fade-in">
+          <div className="col-8 col-md-4 mb-3 fade-in">
             <h6 className="fw-bold">Contact</h6>
             <p className="small mb-1">
-              📍 Near Ramraj Store,Kamatchipuram Theni Road, Chennai
+              <FaBuilding/> Near Ramraj Store,Kamatchipuram Theni Road-625520
             </p>
-            <p className="small mb-1">📞 +91 90806 75488</p>
-            <p className="small">✉️ vaishnubeautytouch@gmail.com</p>
+            <p className="small mb-1"><FaPhoneAlt/> +91 90806 75488</p>
+            <p className="small"><FaMailBulk/> vaishnubeautytouch@gmail.com</p>
             <p className="small d-flex align-items-center gap-2">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="16"
-                height="16"
-                fill="currentColor"
-                className="bi bi-instagram"
-                viewBox="0 0 16 16"
-              >
-                <path d="M8 0C5.8 0 5.5.01 4.7.05c-.8.04-1.3.17-1.8.36a3.6 3.6 0 0 0-1.3.85 3.6 3.6 0 0 0-.85 1.3c-.19.5-.32 1-.36 1.8C.01 5.5 0 5.8 0 8s.01 2.5.05 3.3c.04.8.17 1.3.36 1.8.2.5.45.9.85 1.3.4.4.8.65 1.3.85.5.19 1 .32 1.8.36.8.04 1.1.05 3.3.05s2.5-.01 3.3-.05c.8-.04 1.3-.17 1.8-.36.5-.2.9-.45 1.3-.85.4-.4.65-.8.85-1.3.19-.5.32-1 .36-1.8.04-.8.05-1.1.05-3.3s-.01-2.5-.05-3.3c-.04-.8-.17-1.3-.36-1.8a3.6 3.6 0 0 0-.85-1.3 3.6 3.6 0 0 0-1.3-.85c-.5-.19-1-.32-1.8-.36C10.5.01 10.2 0 8 0zm0 3.9a4.1 4.1 0 1 1 0 8.2 4.1 4.1 0 0 1 0-8.2zM12 3.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
-              </svg>
+             <FaInstagramSquare/>
               <a
                 href="https://www.instagram.com/vaishnu_beauty_touch/?igsh=MXZmcWdoODloMXJncQ%3D%3D#"
                 target="_blank"

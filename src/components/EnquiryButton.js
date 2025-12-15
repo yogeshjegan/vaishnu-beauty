@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa"; // Make sure to install react-icons
 import '../App.css'; // We'll put animation here
 
 const EnquiryButton = () => {
-  const whatsappNumber = "919876543210"; // Replace with your number
+  const whatsappNumber = "9190806 75488"; // Replace with your number
   const message = encodeURIComponent("Hello! I want to make an enquiry.");
 
   const handleClick = () => {

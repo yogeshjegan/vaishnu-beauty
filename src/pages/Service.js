@@ -66,7 +66,7 @@ const ServicesPage = () => {
 
               {/* Mobile: Call button */}
               <a
-                href="tel:+919876543210"
+                href="tel:+9190806 75488"
                 className="btn btn-dark w-100 mt-2 d-block d-md-none"
               >
                 Book Now
@@ -76,7 +76,7 @@ const ServicesPage = () => {
               <a
                 onClick={() => {
                   window.open(
-                    `https://wa.me/917639384577?text=appointment`,
+                    `https://wa.me/9190806 75488?text=appointment`,
                     "_blank"
                   );
                 }}
