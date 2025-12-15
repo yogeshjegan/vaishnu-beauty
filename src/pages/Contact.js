@@ -42,10 +42,10 @@ Message: ${form.message}`;
         
         {/* Left Side Map */}
         <div className="col-md-6 mb-4 mb-md-0">
+         
           <div className="map-container shadow">
              <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.801145761923!2d77.4545569747917!3d9.86704419023165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0711598f68a099%3A0xb8dc0a7d779286a2!2sRamraj%20Stores!5e0!3m2!1sen!2sin!4v1764785414321!5m2!1sen!2sin"
-              width="100%"
+              src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d357.2805084322139!2d77.45680492583148!3d9.867331302735618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3b0711a749462a63%3A0x5f06f97120a42fdd!2sVaishnu%20Beauty%2C%20near%20Ramraj%20Stores%2C%20Kamatchipuram%2C%20Tamil%20Nadu%20625520!3m2!1d9.8673389!2d77.4573073!5e1!3m2!1sen!2sin!4v1765791097457!5m2!1sen!2sin"   width="100%"
               height="420"
               style={{ border: 0, borderRadius: "15px" }}
               allowfullscreen=""
