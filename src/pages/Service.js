@@ -76,7 +76,7 @@ const ServicesPage = () => {
               <a
                 onClick={() => {
                   window.open(
-                    `https://wa.me/9190806 75488?text=appointment`,
+                    `https://wa.me/919080675488?text=appointment`,
                     "_blank"
                   );
                 }}
